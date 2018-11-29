@@ -19,6 +19,10 @@ body {
 	margin: 0 auto;
 }
 
+b, strong {
+    font-weight: 800;
+}
+
 header {
 	text-align: center;
 	background: #FFFFFF;
@@ -29,12 +33,9 @@ header {
 h1 a {
   display: inline-block;
   width: 111px;
-	height: 42px;
-	left: 624px;
-	top: 14px;
   overflow: hidden;
   text-indent: -9999px;
-  background: url("http://tonyveiculos.com.br/img/tonylogo2.png") no-repeat;
+  background: url("../images/tonylogo2.png") no-repeat;
   background-size: contain;
 }
 
@@ -45,7 +46,7 @@ header h1 a:hover {
     opacity: 0.8;
 }
 
-section {
+section, footer {
 	text-align: center;
 }
 
@@ -63,11 +64,42 @@ section p {
 
 }
 
-section .row {
-	width: 830px;
+section .row, footer .row {
 	margin: 0 auto;
 }
 
-#banner article {
+#banner {
+  padding: 60px;
+}
+
+#banner .spotligth {
 	text-align: left;
+	margin-top: 110px;
+	margin-left: 38px;
+}
+#banner .spotligth h3 {
+	font-size: 30px;
+}
+
+#banner .spotligth .price-from h3 {
+	font-size: 40px;
+}
+
+#banner .spotligth .price-to h3 {
+	font-size: 70px;
+}
+
+#badges li {
+	display: block;
+	text-align: center;
+	float: left;
+}
+
+footer {
+	color: #fff;
+	width: 100%;
+	background: #2B2B2B;
+}
+
+footer img {
 }
