@@ -1,0 +1,73 @@
+html {
+	font-family: 'Encode Sans'!important;
+	width: 100%;
+}
+
+html::after {
+  content: "";
+  background: url(/home.png);
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: -2478px;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+}
+
+body {
+	margin: 0 auto;
+}
+
+header {
+	text-align: center;
+	background: #FFFFFF;
+	border-bottom: 2px solid #D8D8D8;
+	box-sizing: border-box;
+}
+
+h1 a {
+  display: inline-block;
+  width: 111px;
+	height: 42px;
+	left: 624px;
+	top: 14px;
+  overflow: hidden;
+  text-indent: -9999px;
+  background: url("http://tonyveiculos.com.br/img/tonylogo2.png") no-repeat;
+  background-size: contain;
+}
+
+header h1 a:hover {
+    -webkit-transform: scale(1.01) rotate(0.01deg);
+    transform: scale(1.01) rotate(0.01deg);
+    transition: opacity 0.2s ease-in-out;
+    opacity: 0.8;
+}
+
+section {
+	text-align: center;
+}
+
+section h2 {
+	font-weight: 500;
+	font-size: 40px;
+}
+
+section p {
+	width: 577px;
+	margin: 0 auto;
+	font-weight: 200;
+	line-height: normal;
+	font-size: 20px;
+
+}
+
+section .row {
+	width: 830px;
+	margin: 0 auto;
+}
+
+#banner article {
+	text-align: left;
+}
